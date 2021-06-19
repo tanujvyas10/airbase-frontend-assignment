@@ -1,0 +1,397 @@
+* {
+  font-family: "SFProDisplay";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo img {
+  margin-top: 10px;
+}
+
+#img-text {
+  display: flex;
+}
+
+#img-text img {
+  border-radius: 0px !important;
+  margin: auto 0;
+  margin-right: 4px;
+}
+
+.main {
+  width: 65vw;
+  height: auto;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%); */
+  margin: 0 auto;
+}
+
+.amazon-logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 0 !important;
+  padding-right: 6px;
+}
+
+.security-message-logo {
+  color: #ffa03d;
+}
+
+.security-message {
+  color: #22222280;
+  margin-left: 5px;
+}
+
+.pending_count {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 2px;
+  color: #302e2e;
+  font-weight: 500;
+  background-color: #8a8686;
+  border-radius: 50%;
+
+  margin: auto 0;
+  margin-right: 3px;
+  mix-blend-mode: normal;
+}
+.main img {
+  /* border-radius: 50%; */
+
+  margin-right: 5px;
+}
+
+.modal {
+  border-radius: 8px;
+  background-color: #fff;
+  /* margin: 10px auto; */
+  border: 1px solid rgba(34, 34, 34, 0.05);
+  box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.left-cell {
+  padding: 0px 8px;
+  width: 40%;
+  color: #222222;
+  font-family: SFProDisplay;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.05);
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #222222;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.file {
+  width: 20px;
+  height: 20px;
+}
+
+#img-text .right-cell-desc {
+  font-weight: 500;
+  color: #222222;
+}
+
+.right-cell {
+  padding: 0px 8px;
+  width: 60%;
+  color: #222222;
+}
+
+th {
+  color: #fff;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+tr {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.05);
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  height: auto;
+  margin: auto;
+  display: flex;
+
+  /* display: flex;
+  justify-content: space-between; */
+  background-color: #fff;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+
+  /* border: 1px solid rgba(34, 34, 34, 0.05); */
+  /* border-top: #fff; */
+  /* box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05);  */
+}
+
+.left-part {
+  flex: 0.5;
+  width: 100%;
+  height: auto;
+  /* border-top: #fff; */
+  /* padding: 3%; */
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.05);
+  /* border-top: #fff; */
+  /* box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05); */
+}
+
+.left-part {
+  flex: 0.5;
+
+  /* border: 0.5px solid black; */
+  background-color: #fff;
+
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.05);
+}
+
+.right-part {
+  flex: 0.5;
+
+  /* border: 0.5px solid black; */
+  background-color: #fff;
+
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.05);
+  /* margin-right: 10px; */
+  /* box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05); */
+}
+
+.right-part > h5 {
+  color: grey;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-size: 10px;
+  background-color: #f2f2f2;
+}
+
+.left-part > h4 {
+  color: grey;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.element {
+  color: black;
+  font: "SFProDisplay";
+  background-color: #fff;
+  font-size: 14px;
+  display: flex;
+  padding-left: 4px;
+}
+
+.element > .tag {
+  flex: 0.3;
+  color: grey;
+}
+
+.element > .tag-data {
+  flex: 0.7;
+  color: black;
+  padding-left: 1px;
+  font-size: 14px;
+}
+
+.left-part > h3 span {
+}
+
+.element2 {
+  display: flex;
+  padding: 5px;
+}
+
+.element2 > .one {
+  flex: 0.05;
+  padding-left: 5px;
+}
+.element2 > .two {
+  padding-left: 5px;
+  flex: 0.05;
+}
+.element2 > .three {
+  padding-left: 5px;
+  flex: 0.75;
+  width: 100%;
+}
+
+.element2 > .fourth {
+  padding-left: 30px;
+  flex: 0.05;
+}
+.fourth img {
+  border-radius: 50%;
+}
+
+.three h4 span {
+  color: grey;
+  font-size: 12px;
+}
+
+hr {
+  border: 1px solid rgba(34, 34, 34, 0.05);
+
+  /* box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05); */
+  border-radius: 8px;
+}
+
+.three p {
+  color: grey;
+  font-size: 12px;
+}
+
+.left-card {
+  border: 0.5px solid grey;
+
+  margin: 5%;
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.05);
+
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05);
+  border-radius: 8px;
+}
+
+.title {
+  margin: 0 auto;
+  margin-left: 1px;
+  display: flex;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #fff;
+  padding: 10px;
+}
+
+.title span {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.buttons {
+  padding: 15px;
+  padding-top: 10px;
+}
+
+.buttons p {
+  color: #ff6448;
+}
+
+.name {
+  color: black;
+  font-weight: 600;
+}
+
+.email {
+  margin-left: 3px;
+  color: grey;
+}
+
+.date {
+  display: block;
+  color: grey;
+}
+
+.details {
+  width: 60%;
+}
+.buttons p span {
+  color: #22222280;
+  display: block;
+}
+
+.buttons .approve {
+  background-color: #26c281;
+  padding: 10px;
+  border-radius: 10%;
+  margin-right: 10px;
+
+  color: #ffffff;
+  background: #26c281;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.buttons .reject {
+  background-color: #ff6448;
+  padding: 10px;
+  border-radius: 10%;
+  color: #ffffff;
+  background: #ff6448;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#ConfirmationInMobView {
+  visibility: hidden;
+}
+
+#InMobView {
+  visibility: hidden;
+}
+
+#buttonsInMobView {
+  visibility: hidden;
+}
+
+@media (max-width: 990px) {
+  .App {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .left-part {
+    flex: 1;
+  }
+  .right-part {
+    flex: 1;
+  }
+
+  .main {
+    width: 90vw;
+  }
+
+  #buttonsInMobWeb {
+    display: none;
+  }
+
+  #buttonsInMobView {
+    visibility: visible;
+    display: flex;
+  }
+
+  #buttonsInMobView .approve {
+    flex: 0.5;
+  }
+
+  #buttonsInMobView .reject {
+    flex: 0.5;
+  }
+}
