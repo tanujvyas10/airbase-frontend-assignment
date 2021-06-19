@@ -1,13 +1,13 @@
 # Airbase Frontend assignment
 
-# Tech specification
+## Tech specification
 * ReactJS (Frontend framework)
 * CSS
 
-# Dependencies (npm)
+## Dependencies (npm)
 * Moment (Used for Time conversion)
 
-# How to start
+## How to start
 * Enter ```git clone https://github.com/tanujvyas10/airbase-frontend-assignment.git``` in your terminal
 * Open the airbase-frontend-assignment folder after cloning is done.
 * Now Enter ```npm install``` in the terminal to install all the dependencies required for the project.
