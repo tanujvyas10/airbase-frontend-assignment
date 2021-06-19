@@ -1,5 +1,5 @@
 import React from "react";
-
+import { images } from "../../helper";
 export default function Title() {
   return (
     <div className="title">
@@ -7,7 +7,7 @@ export default function Title() {
         className="amazon-logo"
         width="20"
         height="30"
-        src={"https://cdn.worldvectorlogo.com/logos/amazon-icon-1.svg"}
+        src={images.amazon_logo}
       />
       <div>
         <span className="title-heading">

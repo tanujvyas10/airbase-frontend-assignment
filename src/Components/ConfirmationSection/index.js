@@ -2,14 +2,14 @@ import React from "react";
 
 export default function ConfirmationSection({ descriptionData }) {
   return (
-    <div className="buttons">
+    <div className="confirmation-section">
       <p>
         Your company is already paying for Amazon Web Service on a recurring
-        basis.<span> (1 instance owned by John Smith).</span>
+        basis.<span>(1 instance owned by John Smith).</span>
       </p>
-      <div id="buttonsInMobWeb">
-        <button class="approve">Approve</button>
-        <button class="reject">Deny</button>
+      <div id="buttonsInWebView">
+        <button class="approve-btn">Approve</button>
+        <button class="deny-btn">Deny</button>
       </div>
     </div>
   );

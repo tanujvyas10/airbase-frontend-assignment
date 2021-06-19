@@ -1,31 +1,43 @@
 import "./styles.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import { request } from "./request";
 import RequestDescription from "./Components/RequestDescription";
 import Header from "./Components/Header";
 import Title from "./Components/Title";
-//import ApprovedElement from "./Components/ApprovedElement";
 import ApprovalSection from "./Components/ApprovalSection";
 import PendingSection from "./Components/PendingSection";
-// import ConfirmationSection from "./Components/ConfirmationSection";
-import ConfimationSectionMobile from "./Components/ConfimationSectionMobile";
+import ConfimationSectionMobile from "./Components/ConfirmationSectionMobile";
 export default function App() {
   const { approvers } = request;
+  const [acceptApprovals, setAcceptApprovals] = useState([]);
+  const [pendingApprovals, setPendingApprovals] = useState([]);
+  useEffect(() => {
+    let accepts = [...acceptApprovals];
+    let pendings = [...pendingApprovals];
+
+    approvers.forEach((element) => {
+      if (element.status === "accepted") accepts.push(element);
+      else pendings.push(element);
+    });
+
+    setAcceptApprovals(accepts);
+    setPendingApprovals(pendings);
+  }, []);
   return (
     <div className="main">
       <Header />
-      <div className="modal">
+      <div className="request-box">
         <Title />
-        <div className="App">
-          <div className="left-part">
+        <div className="request">
+          <div className="request-description">
             <RequestDescription descriptionData={request} />
           </div>
-          <div className="right-part">
-            <ApprovalSection approvers={approvers} />
+          <div className="associate-description">
+            <ApprovalSection approvers={acceptApprovals} />
 
             <hr />
-            <PendingSection />
+            <PendingSection approvers={pendingApprovals} />
             <ConfimationSectionMobile />
           </div>
         </div>
