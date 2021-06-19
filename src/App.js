@@ -1,5 +1,5 @@
 import "./styles.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import { request } from "./request";
 import RequestDescription from "./Components/RequestDescription";

@@ -1,4 +1,3 @@
-import React from "react";
 import DetailElement from "../DetailElement";
 import moment from "moment";
 export default function ApprovalSection({ approvers }) {

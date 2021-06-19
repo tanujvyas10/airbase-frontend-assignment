@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ConfirmationSection({ descriptionData }) {
   return (
     <div className="confirmation-section">

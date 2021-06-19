@@ -1,4 +1,3 @@
-import React from "react";
 import SingleElementRow from "../SingleElementRow";
 import { images } from "../../helper";
 import ConfirmationSection from "../ConfirmationSection";

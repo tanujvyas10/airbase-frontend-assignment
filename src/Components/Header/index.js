@@ -1,4 +1,3 @@
-import React from "react";
 import { images } from "../../helper";
 export default function Header() {
   return (
