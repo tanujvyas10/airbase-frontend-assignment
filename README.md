@@ -5,7 +5,7 @@
 * CSS
 
 ## Dependencies (npm)
-* Moment (Used for Time conversion)
+* Moment (Used for date formatting)
 
 ## How to start
 * Enter ```git clone https://github.com/tanujvyas10/airbase-frontend-assignment.git``` in your terminal
