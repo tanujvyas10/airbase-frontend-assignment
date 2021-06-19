@@ -18,6 +18,7 @@ export default function RequestDescription({ descriptionData }) {
     <>
       <div className="request-details">
         <table>
+        <tbody>
           <SingleElementRow
             heading={"Requested By"}
             imgLink={profile_picture}
@@ -43,6 +44,7 @@ export default function RequestDescription({ descriptionData }) {
           />
 
           <SingleElementRow heading={"Description"} value={description} />
+          </tbody>
         </table>
       </div>
       <ConfirmationSection />

@@ -8,8 +8,8 @@ export default function ConfirmationSection({ descriptionData }) {
         basis.<span>(1 instance owned by John Smith).</span>
       </p>
       <div id="buttonsInWebView">
-        <button class="approve-btn">Approve</button>
-        <button class="deny-btn">Deny</button>
+        <button className="approve-btn">Approve</button>
+        <button className="deny-btn">Deny</button>
       </div>
     </div>
   );
