@@ -23,7 +23,7 @@ export default function RequestDescription({ descriptionData }) {
             imgLink={profile_picture}
             value={`${first_name} ${last_name}`}
           />
-          <SingleElementRow heading={"Cost"} imgLink={""} value={"$" + cost} />
+          <SingleElementRow heading={"Cost"} imgLink={""} value={`$ ${cost}`} />
 
           <SingleElementRow
             heading={"Renewal Frequency"}
